@@ -42,7 +42,7 @@ const Row = ({ title, fetchURL, rowID }) => {
         />
         <div
           id={"slider" + rowID}
-          className="w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide relative  "
+          className="w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide relative"
         >
           {movies.map((item, id) => (
             <Movie key={id} item={item} />
